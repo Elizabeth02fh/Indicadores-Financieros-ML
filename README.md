@@ -8,13 +8,13 @@ En este proyecto, se ha desarrollado un modelo de Machine Learning para analizar
 
 Los principales objetivos del análisis son:
 
-Modelo de regresión: Predecir una variable de interés en función de otras.
+📌 Modelo de regresión: Predecir una variable de interés en función de otras.
 
-Modelo de clasificación: Predecir el Rating de un cliente según los indicadores financieros.
+📌 Modelo de clasificación: Predecir el Rating de un cliente según los indicadores financieros.
 
-Evaluación del desempeño de los modelos: Usar métricas como R², matriz de confusión y otras medidas de bondad de ajuste.
+📌 Evaluación del desempeño de los modelos: Usar métricas como R², matriz de confusión y otras medidas de bondad de ajuste.
 
-Predicción del Rating de un nuevo cliente con base en el modelo de clasificación elegido.
+📌 Predicción del Rating de un nuevo cliente con base en el modelo de clasificación elegido.
 
 🚀 Tecnologías Utilizadas
 
