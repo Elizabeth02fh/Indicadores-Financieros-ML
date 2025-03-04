@@ -31,6 +31,7 @@ Modelos utilizados: Regresión Logística, Random Forest, SVC, XGBoost
 En el gráfico, se observa que el modelo de regresión Random Forest obtuvo el mayor Coeficiente de Determinación (R² = 91.28%), lo que lo convierte en un modelo altamente predictivo para la variable EBIT_TA. Esto indica que las variables seleccionadas explican de manera efectiva la variabilidad de la rentabilidad operativa sobre activos.
 
 ✅ Gráfico de Valores Reales vs. Predichos (Random Forest)
+![image](https://github.com/user-attachments/assets/6ecde697-1b95-4383-bd9a-51aac69f8c6d)
 
 En este gráfico:
 
@@ -41,19 +42,26 @@ Línea roja: Indica los valores reales de EBIT_TA.
 Los puntos están alineados con la línea roja, lo que indica que el modelo predice con precisión y tiene un buen desempeño al estimar esta variable financiera a partir de WC_TA, RE_TA, MVE_BVTD, S_TA e Industry.
 
 ✅ Histograma de errores (Random Forest)
+![image](https://github.com/user-attachments/assets/5b06e916-435f-4add-ae6a-b5bd1cc0072b)
 
 El modelo Random Forest tiene un buen desempeño, ya que sus errores están distribuidos de manera equilibrada alrededor de 0, sin valores extremos que sugieran sobreajuste (overfitting) o subajuste (underfitting).
 
 📌 Resumen de la Matriz de Confusión del Modelo SVC
+![image](https://github.com/user-attachments/assets/51ae1657-07fc-4999-a655-dbbddb6ef365)
 
 El modelo SVC (Support Vector Classifier) muestra un buen rendimiento, ya que la mayoría de las predicciones están en la diagonal principal, lo que indica una alta precisión en varias clases. Sin embargo, aún hay algunas confusiones, especialmente en la clase "BBB", donde:
 ✔️ 156 casos fueron correctamente clasificados como "BBB".
 ❌ 36 casos fueron clasificados incorrectamente en otra categoría.
 ❌ 16 casos adicionales también fueron mal clasificados.
 
+✅ Comparación de Precisión de Modelos 
+
+![image](https://github.com/user-attachments/assets/97b4b54d-36e2-4595-bb51-0a5637993621)
 📌 Precisión del modelo SVC: 73.82%, superando a los demás algoritmos evaluados.
 
 📊 Distribución de Clases en el Dataset
+![image](https://github.com/user-attachments/assets/764605df-2f8a-447f-8f30-eb77a6950574)
+
 
 El histograma de frecuencias muestra que las categorías BBB, BB y AAA tienen la mayor cantidad de datos, lo que indica que estas clases predominan en el conjunto de datos.
 
