@@ -27,7 +27,7 @@ Modelos utilizados: Regresión Logística, Random Forest, SVC, XGBoost
 📊 ¿Qué muestran estos gráficos?
 
 ✅ Comparación de (R²) entre Modelos de Regresión
-
+![image](https://github.com/user-attachments/assets/89b94dbc-b164-4d82-a9a5-f3d4122a02d9)
 En el gráfico, se observa que el modelo de regresión Random Forest obtuvo el mayor Coeficiente de Determinación (R² = 91.28%), lo que lo convierte en un modelo altamente predictivo para la variable EBIT_TA. Esto indica que las variables seleccionadas explican de manera efectiva la variabilidad de la rentabilidad operativa sobre activos.
 
 ✅ Gráfico de Valores Reales vs. Predichos (Random Forest)
