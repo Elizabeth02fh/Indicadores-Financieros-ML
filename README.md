@@ -65,8 +65,11 @@ El modelo SVC (Support Vector Classifier) muestra un buen rendimiento, ya que la
 
 El histograma de frecuencias muestra que las categorías BBB, BB y AAA tienen la mayor cantidad de datos, lo que indica que estas clases predominan en el conjunto de datos.
 
+📌 
+![image](https://github.com/user-attachments/assets/1110dd99-828b-4ecf-8390-748f6a551382)
+
 📌  Aquí, se muestra una parte de codigo, la Predicción del Rating de un nuevo cliente con base en el modelo de clasificación elegido.
-![image](https://github.com/user-attachments/assets/3dafc653-bbd3-4866-afbf-10d79a0f1225)
+![image](https://github.com/user-attachments/assets/f43d31c3-f084-47ec-9f42-b94b1eece0bd)
 
 🏆 Conclusiones
 
