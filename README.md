@@ -49,6 +49,14 @@ El modelo Random Forest tiene un buen desempeño, ya que sus errores están dist
 📌 Resumen de la Matriz de Confusión del Modelo SVC
 ![image](https://github.com/user-attachments/assets/51ae1657-07fc-4999-a655-dbbddb6ef365)
 
+AAA: Máxima calidad crediticia. Empresa con excelente estabilidad financiera y mínima probabilidad de incumplimiento.
+AA: Muy alta calidad crediticia. Riesgo muy bajo, pero ligeramente más expuesta a cambios económicos que AAA.
+A: Alta calidad crediticia. Empresa financieramente sólida, aunque más susceptible a cambios adversos que AA.
+BBB: Calidad crediticia adecuada. Empresa con estabilidad, pero más sensible a condiciones económicas adversas.
+BB: Riesgo moderado-alto. Capacidad de pago actual, pero expuesta a cambios económicos negativos.
+B: Alto riesgo crediticio. Puede cumplir con sus obligaciones en condiciones favorables, pero vulnerable a dificultades financieras.
+CCC: Riesgo significativo de impago. Alta probabilidad de incumplimiento sin mejoras financieras inmediatas.
+
 El modelo SVC (Support Vector Classifier) muestra un buen rendimiento, ya que la mayoría de las predicciones están en la diagonal principal, lo que indica una alta precisión en varias clases. Sin embargo, aún hay algunas confusiones, especialmente en la clase "BBB", donde:
 ✔️ 156 casos fueron correctamente clasificados como "BBB".
 ❌ 36 casos fueron clasificados incorrectamente en otra categoría.
